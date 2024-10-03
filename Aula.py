@@ -1,12 +1,5 @@
-def idade_pessoa():
-    idade = int(input("Digite sua idade: "))
-    if idade >= 18:
-        return True
-    else:
-        return False
+from mouseinfo import mouseInfo
 
-
-if idade_pessoa() == True:
-    print("Pode entrar na Festa")
-else:
-    print("entrada proibida")
+# Chame a função para exibir as informações do mouse
+for i in range(100):
+    mouseInfo()
